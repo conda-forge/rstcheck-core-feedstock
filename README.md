@@ -1,11 +1,11 @@
-About rstcheck-core
-===================
+About rstcheck-core-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rstcheck-core-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/rstcheck-core
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rstcheck-core-feedstock/blob/main/LICENSE.txt)
 
 Summary: Checks syntax of reStructuredText and code blocks nested within it
 
