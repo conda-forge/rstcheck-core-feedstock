@@ -16,15 +16,14 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - poetry
   run:
-    - python >=3.7
-    - docutils >=0.7,<0.19
+    - python >=3.8
+    - docutils >=0.7
     - importlib-metadata >=1.6,<5.0
-    - pydantic >=1.2,<2.0
-    - types-docutils >=0.18,<0.19
+    - pydantic >=2
     - typing-extensions >=3.7.4,<5.0
 
 test:
