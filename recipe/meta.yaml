@@ -1,5 +1,5 @@
 {% set name = "rstcheck-core" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2a4ad9e5e772735ea4a766226e7c61bcd0cc9afd7fecb47e8c9328025559ff12
+  sha256: 991678a86b604636d2461a97fb9339366d143eb799d22d51f49f84ed272121a9
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
