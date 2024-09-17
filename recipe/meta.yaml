@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -23,9 +23,9 @@ requirements:
   run:
     - python >=3.8
     - docutils >=0.7
-    - importlib-metadata >=1.6,<5.0
+    - importlib-metadata >=1.6
     - pydantic >=2
-    - typing-extensions >=3.7.4,<5.0
+    - typing-extensions >=3.7.4
 
 test:
   imports:
